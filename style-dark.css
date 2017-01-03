@@ -1,6 +1,7 @@
 body { margin: 0;
        padding: 0;
-       background-color: #fff; 
+       background-color: #141414;
+       color: white; 
        font-size: 12px;
        font-family: "source-sans-pro", sans-serif;
        -webkit-font-smoothing: subpixel-antialiased;
@@ -16,12 +17,12 @@ h1 { font-weight: 300;
       font-style:italic;
      margin: 5px 0 0;
      font-size: 40px;
-     color:#ba0018;
+     color:#2a9fd6;
      padding: 0 10px 10px;
      border-radius:2px;
      font-family: 'merriweather', sans-serif;
 }
-h2 { color: #ba0018;
+h2 { color: #2a9fd6;
      width: 150px;
      font-size: 18px;
      padding-left: 20px;
@@ -36,7 +37,7 @@ h3 { font-size: 18px;
      font-family: 'merriweather', sans-serif;
 }
 h2, h3 { margin-top: 5px }
-a { color: #ba0018;
+a { color: #2a9fd6;
     display: inline-block;
     text-decoration: none;
     padding:2px 4px;
@@ -69,7 +70,7 @@ a:hover {
                 padding: 0 10px;
 }
 .subsection { margin: 10px 0 5px }
-.desc { font-size: 16px; font-family: "source-sans-pro", sans-serif; color:#444;}
+.desc { font-size: 16px; font-family: "source-sans-pro", sans-serif; color:#aaa;}
 .contact-info { font-size: 16px;
                 text-align: right;
 }
@@ -119,7 +120,7 @@ ul.skills li:last-child{
         margin: 1cm auto;
 
         #background: white;
-	#border-radius: 25px;
+	border-radius: 25px;
 	border: 1px solid #ddd;
         padding: 20px 50px;
 }
